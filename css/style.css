@@ -46,3 +46,27 @@ color: #808080;
   margin: 0;
 }
 
+.evidenzia {
+
+  background-color: yellow;
+}
+
+ul {
+  padding-inline-start: 15px;
+
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+thead {
+  background-color: #20a9e5;
+  color: white;
+}
+
+.azzurro{
+  background-color: #b1e5f2;
+}
