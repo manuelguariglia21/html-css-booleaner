@@ -1,16 +1,25 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80%;
   margin: 0 auto;
 }
-.header-div {
-  background-image: url(../img/pattern.png);
+
+/* HEADER */
+
+header {
+  height: 100px;
   background-color: #4ea0ff;
+  background-image: url(../img/pattern.png);
   background-size: 30%;
 }
 
-.logo {
-  padding-top: 50px;
-  padding-left: 5px;
-  width: 15%;
+header .logo {
+  width: 200px;
+  margin-top: 40px;
 }
 
 .article-box {
@@ -19,31 +28,53 @@ body {
   
 }
 
+
+
+/* MAIN */
+
 h1 {
-  font-size: 60px;
-  margin-bottom: 0;
+  font-size: 35px;
+  line-height: 40px; /* spazio sopra e sotto uguale*/
 }
 
-.credits {
-margin: 0;
-font-size: 25px;
+main{
+  padding: 15px;
+}
+
+/* article */
+
+main .credits {
 font-weight: 600;
 color: #808080;
 }
 
-.name {
+main .credits span {
   color: #20a9e5;
 }
 
-.date {
-  margin-top: 0;
-  font-size: 18px;
+main .date {
+  font-size: 12px;
   color: #c4bbbb;
   font-weight: 600;
 }
 
+main .featured-images{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-description{
+padding-bottom: 20px;
+}
+
 .image-description p{
-  margin: 0;
+  font-size: 12px;
+}
+
+/*paragraph & table*/
+
+.paragraph{
+  padding-bottom: 20px;
 }
 
 .evidenzia {
@@ -53,13 +84,14 @@ color: #808080;
 
 ul {
   padding-inline-start: 15px;
-
+  margin-bottom: 20px;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 thead {
@@ -67,28 +99,34 @@ thead {
   color: white;
 }
 
+table thead th.testo{
+  width: 50%;
+}
+
 .azzurro {
   background-color: #b1e5f2;
 }
+
+/*interest*/
 
 .interest {
   font-size: 25px;
   font-weight: 600;
   color: #808080;
-  margin: 10px;
 
 
 }
 
-.interest p {
-  margin-bottom: 5px;
+.interest h4 {
+  margin-bottom: 20px;
 
 }
 
 .post {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   color: white;
+  margin-bottom: 10px;
 }
 
 #post-1 {
